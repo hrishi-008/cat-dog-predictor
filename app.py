@@ -2,9 +2,10 @@ import streamlit as st
 import joblib
 import numpy as np
 from keras.preprocessing import image
+from keras.models import load_model
 
 # Load the model
-cnn_model = joblib.load('cnn_cat_dog.pkl')
+cnn_model = load_model('cnn_cat_dog.h5')
 
 
 # Streamlit app
@@ -42,5 +43,5 @@ def preprocess_image(uploaded_file):
     return img_array
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
