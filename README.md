@@ -22,6 +22,9 @@ The app uses a deep learning model trained on a dataset of cat and dog images. T
 4. Open the provided URL in your web browser to access the app.
 5. Upload an image and see the model's prediction for cat or dog.
 
+## See the App in Action
+Visit [Cat-Dog Predictor App](https://is-that-cat-or-dog.streamlit.app/) to see the app in action!
+
 Feel free to explore the code, experiment with different images, and enhance the app as you see fit! If you have any suggestions or improvements, feel free to contribute.
 
 ## Contributors
